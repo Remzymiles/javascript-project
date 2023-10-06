@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <title>Flumello sign-up</title>
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="shortcut icon" href="./ assets/favicon/android-chrome-512x512.png" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="auth">
+    <header>
+      <div class="auth-logo">
+        <a href="./index.html">
+          <img src="../ assets/images/logo2-removebg-preview.png" alt="logo" />
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="sign-up_container">
+        <div class="links">
+          <a href="./login.html">Login</a>
+          <a href="./sign-up.html">Sign Up</a>
+        </div>
+        <div class="form">
+          <div class="firstname">
+            <label for="name">First Name:</label><br />
+            <input type="text" id="name" name="fname" placeholder="Enter Firstname.." required />
+          </div>
+
+          <div>
+            <label for="name">Last Name:</label><br />
+            <input type="text" id="name" name="lname" placeholder="Enter Lastname.." required />
+          </div>
+
+          <div class="email">
+            <label for="e-mail">E-mail:</label><br />
+            <input type="email" id="e-mail" name="mail" placeholder="Enter E-mail Address" required />
+          </div>
+
+          <div class="password">
+            <label for="password">Password:</label><br />
+            <input type="password" id="password" name="password" placeholder="Enter Password" required />
+          </div>
+
+          <div class="checkbox">
+            <input type="checkbox" id="save" name="save" value="save-password" />
+            <label for="save"> Save Password.</label>
+          </div>
+
+          <div class="submit">
+            <div class="terms">
+              By continuing, you agree to Flumello's Conditions of Use and
+              Privacy Notice.
+            </div>
+            <button type="submit">Login</button>
+            <!-- <input type="submit" value="Create Account" /> -->
+          </div>
+        </div>
+        <div class="login">
+          <p>Already have an account? <a href="./login.html">Login</a></p>
+        </div>
+      </div>
+    </main>
+    <footer>Copyright&copy; 2023 Flumello.com</footer>
+  </div>
+</body>
+
+</html>
