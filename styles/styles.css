@@ -84,10 +84,16 @@ div.landing div.dropdown-content {
   display: none;
   position: absolute;
   top: 30px;
+  left: -30px;
   background-color: #f9f9f9;
-  min-width: 160px;
+  width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+}
+div.landing section.three div.dropdown-content{
+  width: 120px;
+  overflow: hidden;
+  left: -17px;
 }
 
 .cart_icon {
@@ -630,7 +636,7 @@ hr#reviews {
 
 .product_main div.reviews header i {
   color: var(--star_color);
-  font-size: 2px;
+  font-size: 10px;
 }
 
 .product_main section div.reviews {
@@ -1466,6 +1472,9 @@ div.auth footer {
   }
   .hero_image_slider figure img {
     height: 500px;
+  }
+  div.landing div.dropdown-content {
+    left: 10px;
   }
     /* landing page end */
 
